@@ -3,30 +3,34 @@
 
 <p align="center">
   <b>Unity Game Development Project</b><br/>
-  Basic Physics & Player Control
+  Basic Physics • Player Control • Camera Follow
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Unity-3D-black?logo=unity">
   <img src="https://img.shields.io/badge/C%23-Scripting-blue?logo=csharp">
-  <img src="https://img.shields.io/badge/Game-Type%20Arcade-green">
+  <img src="https://img.shields.io/badge/Game-Arcade-green">
 </p>
+
+<hr/>
+
+<hr/>
 
 <!-- ===================== INTRO ===================== -->
 <h2>📖 Introduction</h2>
 
 <p>
-This project is a simple <b>Roll-a-Ball game</b> developed using Unity.  
-The objective of the game is to control a rolling ball, collect objects, and complete the level.
+This is a simple <b>Roll-a-Ball game</b> built using Unity.  
+The player controls a rolling ball to collect rotating objects in the scene.
 </p>
 
 <p>
-This project demonstrates fundamental concepts in Unity such as:
+This project demonstrates fundamental Unity concepts:
 </p>
 
 <ul>
-  <li>Physics-based movement</li>
-  <li>Player input handling</li>
+  <li>Physics-based movement (Rigidbody)</li>
+  <li>Keyboard input handling</li>
   <li>Camera follow system</li>
   <li>Object rotation</li>
   <li>Collision detection</li>
@@ -37,19 +41,26 @@ This project demonstrates fundamental concepts in Unity such as:
 <!-- ===================== FEATURES ===================== -->
 <h2>🎮 Features</h2>
 
-<style>
-.feature-box {
-  background-color: #f6f8fa;
-  padding: 12px;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-</style>
-- ✔ Smooth ball movement using physics
-- ✔ Camera follows player
-- ✔ Rotating collectible objects
-- ✔ Basic collision detection
-- ✔ Simple and clean gameplay
+<div style="background-color:#f6f8fa; padding:12px; border-radius:8px; margin-bottom:10px;">
+✔ Smooth ball movement using physics
+</div>
+
+<div style="background-color:#f6f8fa; padding:12px; border-radius:8px; margin-bottom:10px;">
+✔ Camera follows player
+</div>
+
+<div style="background-color:#f6f8fa; padding:12px; border-radius:8px; margin-bottom:10px;">
+✔ Rotating collectible objects
+</div>
+
+<div style="background-color:#f6f8fa; padding:12px; border-radius:8px; margin-bottom:10px;">
+✔ Basic collision detection
+</div>
+
+<div style="background-color:#f6f8fa; padding:12px; border-radius:8px; margin-bottom:10px;">
+✔ Simple and clean gameplay
+</div>
+
 <hr/>
 
 <!-- ===================== GAMEPLAY ===================== -->
@@ -89,33 +100,33 @@ Assets/
 <!-- ===================== IMPLEMENTATION ===================== -->
 <h2>⚙️ Implementation Details</h2>
 
-<h3>1. Player Controller</h3>
+<h3>🎯 Player Controller</h3>
 <ul>
-  <li>Controls ball movement using <b>Rigidbody physics</b></li>
-  <li>Applies force based on player input</li>
+  <li>Uses <b>Rigidbody</b> for realistic physics movement</li>
+  <li>Applies force based on user input</li>
 </ul>
 
-<h3>2. Camera System</h3>
+<h3>🎥 Camera System</h3>
 <ul>
-  <li>Camera follows the player smoothly</li>
-  <li>Maintains relative position to the ball</li>
+  <li>Follows the player smoothly</li>
+  <li>Keeps a fixed offset from the player</li>
 </ul>
 
-<h3>3. Rotating Objects</h3>
+<h3>🔄 Rotating Objects</h3>
 <ul>
   <li>Objects rotate continuously using script</li>
-  <li>Creates dynamic visual effect</li>
+  <li>Improves visual feedback</li>
 </ul>
 
-<h3>4. Input System</h3>
+<h3>🎮 Input Handling</h3>
 <ul>
-  <li>Handles keyboard input (WASD / Arrow Keys)</li>
+  <li>Supports keyboard input (WASD / Arrow keys)</li>
 </ul>
 
-<h3>5. Collision Detection</h3>
+<h3>💥 Collision Detection</h3>
 <ul>
-  <li>Detects when player touches collectible objects</li>
-  <li>Triggers game logic (e.g., destroy object)</li>
+  <li>Detects player collisions with collectibles</li>
+  <li>Triggers object removal</li>
 </ul>
 
 <hr/>
@@ -124,15 +135,15 @@ Assets/
 <h2>🛠️ Build Instructions</h2>
 
 <ol>
-  <li>Open project in Unity</li>
+  <li>Open the project in Unity</li>
   <li>Go to <b>File → Build Settings</b></li>
-  <li>Select platform (PC recommended)</li>
+  <li>Select target platform (PC recommended)</li>
   <li>Click <b>Add Current Scene</b></li>
   <li>Click <b>Build</b></li>
 </ol>
 
 <p>
-Run the generated executable file to play the game.
+After building, run the generated <b>.exe</b> file to play the game.
 </p>
 
 <hr/>
@@ -141,8 +152,8 @@ Run the generated executable file to play the game.
 <h2>📋 Requirements</h2>
 
 <ul>
-  <li>Unity (recommended version: 2020+)</li>
-  <li>Basic knowledge of C#</li>
+  <li>Unity (recommended: 2020+)</li>
+  <li>Basic C# knowledge</li>
 </ul>
 
 <hr/>
@@ -159,5 +170,5 @@ Run the generated executable file to play the game.
 
 <!-- ===================== FOOTER ===================== -->
 <p align="center">
-  ⭐ If you like this project, give it a star!
+  ⭐ If you like this project, give it a star on GitHub!
 </p>
