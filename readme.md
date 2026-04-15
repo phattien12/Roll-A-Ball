@@ -46,11 +46,25 @@ This project demonstrates fundamental concepts in Unity such as:
 }
 </style>
 
-<div class="feature-box">✔ Smooth ball movement using physics</div>
-<div class="feature-box">✔ Camera follows player</div>
-<div class="feature-box">✔ Rotating collectible objects</div>
-<div class="feature-box">✔ Basic collision detection</div>
-<div class="feature-box">✔ Simple and clean gameplay</div>
+<div style="background-color:#f6f8fa; padding:12px; border-radius:8px; margin-bottom:10px;">
+✔ Smooth ball movement using physics
+</div>
+
+<div style="background-color:#f6f8fa; padding:12px; border-radius:8px; margin-bottom:10px;">
+✔ Camera follows player
+</div>
+
+<div style="background-color:#f6f8fa; padding:12px; border-radius:8px; margin-bottom:10px;">
+✔ Rotating collectible objects
+</div>
+
+<div style="background-color:#f6f8fa; padding:12px; border-radius:8px; margin-bottom:10px;">
+✔ Basic collision detection
+</div>
+
+<div style="background-color:#f6f8fa; padding:12px; border-radius:8px; margin-bottom:10px;">
+✔ Simple and clean gameplay
+</div>
 
 <hr/>
 
